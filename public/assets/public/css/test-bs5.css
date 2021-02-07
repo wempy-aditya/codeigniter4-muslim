@@ -75,30 +75,74 @@
 
 
 
+    .navbarTitle {
+        font-size: 26px;
+    }
+    .navItem {
+        font-size: 18px;
+    }
 
     .sectionTitle {
-        font-size: 60px;
+        font-size: 55px;
         font-weight: 600;
     }
 
     .countdownCard {
-        margin: 20px;
+        margin: 24px;
+    }
+    .countdownCardBody{
+        background-color: #f4f9f4;
+    }
+    .countdownCardHeader {
+        background-color: #74b49b;
+        border-bottom:0px;
+    }
+
+    .cardShadow {
+        border: 0px;
+        -webkit-box-shadow: 4px 6px 16px 0px rgba(57,62,70,0.32);
+        -moz-box-shadow: 4px 6px 16px 0px rgba(57,62,70,0.32);
+        box-shadow: 4px 6px 16px 0px rgba(57,62,70,0.32);
+    }
+    .textShadow {
+        text-shadow: 2px 2px 5px rgba(150, 150, 150, 1);
+    }
+    .tableHead {
+        font-size: 20px;
+    }
+
+    .progressBar {
+        margin-left: 10px;
+        margin-right: 10px;
     }
     .timespan {
-        color: white;
+        color: #5c8d89;
         font-size: 50px;
+        font-weight: 650;
         margin: 20px;
     }
     .formatWaktu {
         color: white;
     }
 
-
-
-
-
     /* RESPONSIVE CSS
     -------------------------------------------------- */
+
+    @media only screen and (max-width: 500px) {
+        .countdownCard {
+            margin: 8px;
+        }
+        .sectionTitle {
+            font-size: 35px;
+        }
+        .timespan {
+            margin: 14px;
+        }
+        .progressBar {
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+    }
 
     @media (min-width: 40em) {
         /* Bump up size of carousel content */

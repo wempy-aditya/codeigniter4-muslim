@@ -8,6 +8,7 @@ class Home extends BaseController
 	{
 		$data=[
             'title' => "Home",
+			'lokasi' => "Home",
 			'konten' => 'front_page/v_home',
 		];
 		return view('front_layout/v_wrapper', $data);

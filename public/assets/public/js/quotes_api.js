@@ -5,7 +5,7 @@ async function randomQuote() {
     })
     .then(function(data) {
         var item = data[Math.floor(Math.random() * data.length)];
-        document.getElementById("quoteRandom").append(item.text);
+        // document.getElementById("quoteRandom").append(item.text);
 
         const acak = shuffle(data);
         const loop = acak.map(function(quote) {
