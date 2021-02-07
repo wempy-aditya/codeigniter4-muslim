@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+        <title>Hello, world!</title>
+
+        <link rel="stylesheet" href="./test-bs5.css">
+    </head>
+
+    <body>
+
+        <header>
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #5c8d89;">
+                <div class="container">
+                    <a class="navbar-brand" href="#">
+                        <!-- <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-top"> -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 16 16">
+                            <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
+                            <path d="M4.268 1A2 2 0 0 1 6 0h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L13 13.768V2a1 1 0 0 0-1-1H4.268z"/>
+                        </svg>
+                        <b>Bootstrap</b>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                            <li class="nav-item active">
+                                <a class="nav-link text-light" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">Link</a>
+                            </li>
+                        </ul>
+                        <span class="navbar-text text-light">
+                            Navbar text with an inline element
+                        </span>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="h-100">
+
+            <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                        <div class="container">
+                            <div class="carousel-caption text-start">
+                                <h1>Example headline.</h1>
+                                <p id="quoteRandom"></p>
+                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                        <div class="container">
+                            <div class="carousel-caption">
+                                <h1>Another example headline.</h1>
+                                <p id="quoteRandom1">Fungsi filter() membuat array baru berisi elemen yang lolos pengecekan di dalam fungsi anonim yang dikirim sebagai parameter.</p>
+                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!-- <img src="./factory2-home.jpg" alt="" class="d-block" loading="lazy"> -->
+                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                        <div class="container">
+                            <div class="carousel-caption text-end">
+                                <h1>One more for good measure.</h1>
+                                <p id="quoteRandom2">Fungsi filter() membuat array baru berisi elemen yang lolos pengecekan di dalam fungsi anonim yang dikirim sebagai parameter.</p>
+                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            
+            <div class="content-list mb-5">
+
+                <div style="background-color: white;">
+                    <div class="container pt-5 pb-5">
+                        <div class="row">
+                            <div class="col">
+                                <h1 class="text-center">LOREM IPSUM</h1>
+                            </div>
+                        </div>
+                        <div class="row mt-4" id="testingq">
+                            <h1 class="text-center" id="loadText">Loading Gan....</h1>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <footer class="footer mt-auto py-3 mt-5"  style="background-color: #5c8d89;">
+                <div class="container">
+                    <span class="text-light">Place sticky footer content here.</span>
+                </div>
+            </footer>
+
+        </main>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+        <script>
+            async function randomQuote() {
+                fetch("https://type.fit/api/quotes")
+                .then(function(response) {
+                    return response.json()
+                })
+                .then(function(data) {
+                    var item = data[Math.floor(Math.random() * data.length)];
+                    document.getElementById("quoteRandom").append(item.text);
+
+                    const acak = shuffle(data);
+                    const loop = acak.map(function(quote) {
+                        const author = document.createTextNode(quote.author)
+                        const body = document.createTextNode(quote.text)
+                        
+                        var column = document.createElement("div");  
+                        column.classList.add("col-3");
+                        column.classList.add("mb-3");
+
+                        var cardParrent = document.createElement("div");  
+                        cardParrent.classList.add("card");
+
+                        var cardHeader = document.createElement("div");  
+                        cardHeader.classList.add("card-header");
+
+                        var cardBody = document.createElement("div");  
+                        cardBody.classList.add("card-body");
+                        
+                        column.appendChild(cardParrent);
+                        cardParrent.appendChild(cardHeader);
+                        cardHeader.appendChild(author);  
+                        cardParrent.appendChild(cardBody);
+                        cardBody.appendChild(body);  
+
+                        document.getElementById("testingq").appendChild(column);
+                    })
+                    document.getElementById("loadText").remove();
+                })
+            }
+
+            function shuffle(array) {
+                var currentIndex = array.length, temporaryValue, randomIndex;
+                while (0 !== currentIndex) {
+                    randomIndex = Math.floor(Math.random() * currentIndex);
+                    currentIndex -= 1;
+                    temporaryValue = array[currentIndex];
+                    array[currentIndex] = array[randomIndex];
+                    array[randomIndex] = temporaryValue;
+                }
+                return array;
+            }
+
+            randomQuote()
+        </script>
+        
+    </body>
+</html>
