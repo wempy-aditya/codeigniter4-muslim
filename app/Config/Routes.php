@@ -42,6 +42,8 @@ $routes->get('Rest_api/index', 'Rest_api::index');
 $routes->get('Rest_api/get_all_ayat', 'Rest_api::get_all_ayat');
 $routes->get('Rest_api/get_ayat_by_surat/(:num)', 'Rest_api::get_ayat_by_surat/$1');
 $routes->get('Rest_api/get_all_surat', 'Rest_api::get_all_surat');
+$routes->get('Rest_api/get_all_quotes/(:any)', 'Rest_api::get_all_quotes/$1');
+$routes->get('Rest_api/get_random_quotes/(:num)', 'Rest_api::get_random_quotes/$1');
 
 /*
  * --------------------------------------------------------------------

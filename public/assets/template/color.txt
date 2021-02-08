@@ -6,3 +6,60 @@ wempy
 74b49b
 wempy
 5c8d89
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        <!-- <div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel" style="margin:0px;">
+                                            <div class="carousel-inner" style="height:120px;">
+                                                <div class="carousel-item active" style="height:120px;">
+                                                    <div class="carousel-caption d-none d-md-block" style="top:6px">
+                                                        <figure>
+                                                            <blockquote class="blockquote">
+                                                                <p>Lorem ipsum dolor sit amet, conseVDFVDctetur adipiscing elit. Integer posuere erat a ante.</p>
+                                                            </blockquote>
+                                                            <figcaption class="blockquote-footer">
+                                                                Someone famous in <cite title="Source Title">Source Title</cite>
+                                                            </figcaption>
+                                                        </figure>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item" style="height:120px;">
+                                                    <div class="carousel-caption d-none d-md-block" style="top:6px">
+                                                        <figure>
+                                                            <blockquote class="blockquote">
+                                                                <p>Lorem ipsum dolor sit amet, conseVDFVDctetur adipiscing elit. Integer posuere erat a ante.</p>
+                                                            </blockquote>
+                                                            <figcaption class="blockquote-footer">
+                                                                Someone famous in <cite title="Source Title">Source Title</cite>
+                                                            </figcaption>
+                                                        </figure>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </a>
+                                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </a>
+                                        </div> -->
