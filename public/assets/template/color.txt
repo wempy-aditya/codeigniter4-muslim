@@ -8,6 +8,12 @@ wempy
 5c8d89
 
 
+rest api : 
+- https://api.banghasan.com/sholat/format/json/jadwal/kota/$kota/tanggal/$tanggal 
+- https://api.banghasan.com/sholat/format/json/kota 
+- https://api.banghasan.com/sholat/format/json/kota/kode/$kota 
+- https://api.npoint.io/99c279bb173a6e28359c/data 
+
 
 
 

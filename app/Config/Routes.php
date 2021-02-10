@@ -35,6 +35,7 @@ $routes->setAutoRoute(false);
 $routes->get('/', 'Home::index');
 $routes->get('Home', 'Home::index');
 $routes->get('Home/index', 'Home::index');
+$routes->get('Home/test', 'Home::test');
 
 // $routes->resource('Rest_api');
 $routes->get('Rest_api', 'Rest_api::index');

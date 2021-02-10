@@ -76,19 +76,20 @@
                                 <div class="card cardShadow" data-aos="zoom-in">
                                     <div class="card-body">
                                         <form id="formJadwalShalat">
+                                            <input type="hidden" id="currentDate" name="tanggal" value="<?php echo(date('Y-m-d')); ?>">
                                             <div class="">
                                                 <label for="Kota" class="form-label">Jadwal shalat untuk semua daerah di Indonesia</label>
-                                                <select class="form-select" aria-label="Default select example">
-                                                    <option selected>-- Plih Daerah --</option>
-                                                    <option value="1">One</option>
-                                                    <option value="2">Two</option>
-                                                    <option value="3">Three</option>
+                                                <select id="locationSelect" class="form-select" aria-label="Default select example">
+                                                    <option value="none">-- Plih Daerah --</option>
+                                                    <?php foreach ($kota as $key => $value) { ?>
+                                                    <option value="<?php echo($value['id']) ?>_<?php echo($value['nama']) ?>"><?php echo($value['nama']) ?></option>
+                                                    <?php } ?>
                                                 </select>
                                             </div>
                                         </form>
                                     </div>
                                     <div class="card-header" style="background-color:#a7d7c5;border-bottom:0px;">
-                                        <button type="submit" class="btn btn-secondary">Submit</button>
+                                        <button id="buttonLocation" class="btn btn-secondary">Submit</button>
                                     </div>
                                 </div>
                             </div>
@@ -107,7 +108,7 @@
                                             <tbody class="text-center">
                                                 <tr>
                                                     <td><b>Daerah : </b></td>
-                                                    <td><span id="location">Indonesia</span></td>
+                                                    <td><span id="lokasiDaerah">not set</span></td>
                                                 </tr>
                                                 <tr>
                                                     <td><b>Tanggal : </b></td>
@@ -115,7 +116,7 @@
                                                 </tr>
                                                 <tr>
                                                     <td><b>Imsak : </b></td>
-                                                    <td><span id="imsyak">00.00</span> wib</td>
+                                                    <td><span id="imsak">00.00</span> wib</td>
                                                 </tr>
                                                 <tr>
                                                     <td><b>Subuh : </b></td>
