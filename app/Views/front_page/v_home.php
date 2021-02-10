@@ -9,7 +9,7 @@
                     <div class="container pt-3 pb-4">
                         <div class="row mb-3">
                             <div class="col">
-                                <h1 class="text-center sectionTitle textShadow" data-aos="zoom-in">Hitung Mundur Ramadhan</h1>
+                                <h1 class="text-center sectionTitle textShadow" data-aos="fade-up">Hitung Mundur Ramadhan</h1>
                             </div>
                         </div>
                         <div class="row mb-5"> 
@@ -66,9 +66,9 @@
                 
                 <div style="background-color: #f4f9f4;">
                     <div class="container pt-4 pb-5">
-                        <div class="row mt-4 mb-4">
+                        <div class="row mt-4 mb-5">
                             <div class="col">
-                                <h1 class="text-center sectionTitle textShadow" data-aos="zoom-in">Jadwal Shalat & Imsakiyah</h1>
+                                <h1 class="text-center sectionTitle textShadow" data-aos="fade-up">Jadwal Shalat & Imsakiyah</h1>
                             </div>
                         </div>
                         <div class="row mb-5"> 
@@ -95,7 +95,7 @@
                         </div>
                         <div class="row mb-5">
                             <div class="col">
-                                <div class="card cardShadow">
+                                <div class="card cardShadow" data-aos="zoom-in-down">
                                     <div class="card-body">
                                         <table class="table table-striped">
                                             <thead class="text-center tableHead">
@@ -106,44 +106,44 @@
                                             </thead>
                                             <tbody class="text-center">
                                                 <tr>
-                                                    <td>Daerah : </td>
-                                                    <td>Sumatera</td>
+                                                    <td><b>Daerah : </b></td>
+                                                    <td><span id="location">Indonesia</span></td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Tanggal : </td>
-                                                    <td>Minggu, 07 Feb 2021</td>
+                                                    <td><b>Tanggal : </b></td>
+                                                    <td><?php echo(date('Y-m-d')); ?></td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Imsak : </td>
-                                                    <td>04:45 wib</td>
+                                                    <td><b>Imsak : </b></td>
+                                                    <td><span id="imsyak">00.00</span> wib</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Subuh : </td>
-                                                    <td>04:55 wib</td>
+                                                    <td><b>Subuh : </b></td>
+                                                    <td><span id="subuh">00.00</span> wib</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Terbit  : </td>
-                                                    <td>06:11 wib</td>
+                                                    <td><b>Terbit : </b></td>
+                                                    <td><span id="terbit">00.00</span> wib</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Terbit  : </td>
-                                                    <td>06:11 wib</td>
+                                                    <td><b>Dhuha : </b></td>
+                                                    <td><span id="dhuha">00.00</span> wib</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Terbit  : </td>
-                                                    <td>06:11 wib</td>
+                                                    <td><b>Dhuhur : </b></td>
+                                                    <td><span id="dhuhur">00.00</span> wib</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Terbit  : </td>
-                                                    <td>06:11 wib</td>
+                                                    <td><b>Ashar : </b></td>
+                                                    <td><span id="ashar">00.00</span> wib</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Terbit  : </td>
-                                                    <td>06:11 wib</td>
+                                                    <td><b>Maghrib : </b></td>
+                                                    <td><span id="maghrib">00.00</span> wib</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>Terbit  : </td>
-                                                    <td>06:11 wib</td>
+                                                    <td><b>Isya : </b></td>
+                                                    <td><span id="isya">00.00</span> wib</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -156,10 +156,10 @@
 
                 <div style="background-color: #ffffff;">
                     <div class="container pt-4 pb-5">
-                        <div class="row mt-4 mb-3">
+                        <div class="row mt-4 mb-3" data-aos="fade-up">
                             <div class="col d-flex justify-content-center">
                                 <hr style="width:26%;height:2px;margin-right:16px;">
-                                <svg xmlns="http://www.w3.org/2000/svg" style="color:#5c8d89;" width="60" height="60" fill="currentColor" class="bi bi-chat-square-quote-fill" viewBox="0 0 16 16">
+                                <svg xmlns="http://www.w3.org/2000/svg" style="color:#5c8d89;" width="50" height="50" fill="currentColor" class="bi bi-chat-square-quote-fill" viewBox="0 0 16 16">
                                     <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.5a1 1 0 0 0-.8.4l-1.9 2.533a1 1 0 0 1-1.6 0L5.3 12.4a1 1 0 0 0-.8-.4H2a2 2 0 0 1-2-2V2zm7.194 2.766a1.688 1.688 0 0 0-.227-.272 1.467 1.467 0 0 0-.469-.324l-.008-.004A1.785 1.785 0 0 0 5.734 4C4.776 4 4 4.746 4 5.667c0 .92.776 1.666 1.734 1.666.343 0 .662-.095.931-.26-.137.389-.39.804-.81 1.22a.405.405 0 0 0 .011.59c.173.16.447.155.614-.01 1.334-1.329 1.37-2.758.941-3.706a2.461 2.461 0 0 0-.227-.4zM11 7.073c-.136.389-.39.804-.81 1.22a.405.405 0 0 0 .012.59c.172.16.446.155.613-.01 1.334-1.329 1.37-2.758.942-3.706a2.466 2.466 0 0 0-.228-.4 1.686 1.686 0 0 0-.227-.273 1.466 1.466 0 0 0-.469-.324l-.008-.004A1.785 1.785 0 0 0 10.07 4c-.957 0-1.734.746-1.734 1.667 0 .92.777 1.666 1.734 1.666.343 0 .662-.095.931-.26z"/>
                                 </svg>
                                 <hr style="width:26%;height:2px;margin-left:16px;">
@@ -167,14 +167,14 @@
                         </div>
                         <div class="row"> 
                             <div class="col">
-                                <div class="card cardShadow">
-                                    <div class="card-body">
-                                        <figure class="text-center">
+                                <div class="card cardShadow" data-aos="flip-up" style="border:0px;">
+                                    <div class="card-body" style="background-color: #f4f9f4;">
+                                        <figure class="text-center" style="margin-top:10px;">
                                             <blockquote class="blockquote">
-                                                <p>Lorem ipsum dolor sit amet, conseVDFVDctetur adipiscing elit. Integer posuere erat a ante.</p>
+                                                <p id="quoteBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                                             </blockquote>
                                             <figcaption class="blockquote-footer">
-                                                Someone famous in <cite title="Source Title">Source Title</cite>
+                                                <cite title="Source Title" id="quoteAuthor">Source Title</cite>
                                             </figcaption>
                                         </figure>
                                     </div>

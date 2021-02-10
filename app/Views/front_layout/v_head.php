@@ -11,7 +11,7 @@
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
-        <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/public/css/test-bs5.css">
+        <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/public/css/custom.css">
     </head>
 
     <body>
