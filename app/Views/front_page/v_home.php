@@ -107,12 +107,12 @@
                                             </thead>
                                             <tbody class="text-center">
                                                 <tr>
-                                                    <td><b>Daerah : </b></td>
-                                                    <td><span id="lokasiDaerah">not set</span></td>
-                                                </tr>
-                                                <tr>
                                                     <td><b>Tanggal : </b></td>
                                                     <td><?php echo(date('Y-m-d')); ?></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><b>Daerah : </b></td>
+                                                    <td><span id="lokasiDaerah">not set</span></td>
                                                 </tr>
                                                 <tr>
                                                     <td><b>Imsak : </b></td>
