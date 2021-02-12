@@ -37,6 +37,9 @@ $routes->get('Home', 'Home::index');
 $routes->get('Home/index', 'Home::index');
 $routes->get('Home/test', 'Home::test');
 
+$routes->get('Quran', 'Quran::index');
+$routes->get('Quran/index', 'Quran::index');
+
 // $routes->resource('Rest_api');
 $routes->get('Rest_api', 'Rest_api::index');
 $routes->get('Rest_api/index', 'Rest_api::index');

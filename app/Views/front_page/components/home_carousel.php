@@ -6,7 +6,7 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                        <img src="<?= base_url(); ?>/assets/public/image/3.1.jpg" alt="" class="d-block" loading="lazy">
                         <div class="container">
                             <div class="carousel-caption text-start">
                                 <h1>Example headline.</h1>
@@ -26,7 +26,6 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <!-- <img src="./factory2-home.jpg" alt="" class="d-block" loading="lazy"> -->
                         <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
                         <div class="container">
                             <div class="carousel-caption text-end">
