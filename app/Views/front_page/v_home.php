@@ -66,7 +66,7 @@
                 
                 <div style="background-color: #f4f9f4;">
                     <div class="container pt-4 pb-5">
-                        <div class="row mt-4 mb-5">
+                        <div class="row mt-4 mb-4">
                             <div class="col">
                                 <h1 class="text-center sectionTitle textShadow" data-aos="fade-up">Jadwal Shalat & Imsakiyah</h1>
                             </div>

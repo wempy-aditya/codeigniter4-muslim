@@ -111,6 +111,17 @@
     }
 
 
+    .sectionTitleQuran {
+        font-size: 40px;
+    }
+    .ayatArab {
+        font-size: 40px;
+    }
+    .artiAyat {
+        font-size: 18px;
+    }
+
+
     /* RESPONSIVE CSS
     -------------------------------------------------- */
 
@@ -138,6 +149,16 @@
 
 
         .notifQuran {
+            font-size: 14px;
+        }
+
+        .sectionTitleQuran {
+            font-size: 35px;
+        }
+        .ayatArab {
+            font-size: 34px;
+        }
+        .artiAyat {
             font-size: 14px;
         }
     }

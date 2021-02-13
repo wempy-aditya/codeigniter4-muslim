@@ -39,6 +39,7 @@ $routes->get('Home/test', 'Home::test');
 
 $routes->get('Quran', 'Quran::index');
 $routes->get('Quran/index', 'Quran::index');
+$routes->get('Quran/surat/(:num)', 'Quran::surat/$1');
 
 // $routes->resource('Rest_api');
 $routes->get('Rest_api', 'Rest_api::index');

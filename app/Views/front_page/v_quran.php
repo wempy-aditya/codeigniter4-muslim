@@ -9,34 +9,34 @@
             </div>
             <div class="row mb-4">
                 <div class="col">
-                    <div class="alert alert-success d-flex justify-content-between align-items-center cardShadow" role="alert">
+                    <div class="alert alert-success d-flex justify-content-between align-items-center cardShadow" role="alert" data-aos="flip-up">
                         <div class="notifQuran">
-                            <b>Terakhir dibaca</b> <span id="topNotification">A simple primary<span>
+                            <b>Terakhir dibaca :</b> <span id="topNotification">Belum ada yang tersimpan, <a href="<?php base_url(); ?>/Quran">Coba lagi</a><span>
                         </div>
                         <div>
-                            <button type="button" class="btn btn-secondary btn-sm">Baca</button>
+                            <a class="btn btn-secondary btn-sm" id="btnTerakhirBaca">Baca</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <?php for ($i=0; $i < 6; $i++) { ?>
+                    <?php $i=0; foreach ($surat as $key => $value) { $i++ ?>
 
-                        <div class="card mb-3" id="surat<?= $i ?>" data-aos="zoom-in">
+                        <div class="card mb-3" id="surat_<?php echo($value['nomor']) ?>" data-aos="zoom-in">
                             <div class="card-header">
-                                <span class="badge bg-hijau">1</span> <b>Al Fatihah</b> 
+                                <span class="badge bg-hijau"><?php echo($value['nomor']) ?></span> <b><?php echo($value['nama']) ?></b> 
                             </div>
                             <div class="card-body">
                                 <div class="infoSurat">
-                                    <b>Asma : </b>الفاتحة <br>
-                                    <b>Arti : </b>Pembukaan <br>
-                                    <b>Diturunkan : </b>mekah <br>
+                                    <b>Asma : </b><?php echo($value['asma']) ?> <br>
+                                    <b>Arti : </b><?php echo($value['arti']) ?> <br>
+                                    <b>Diturunkan : </b><?php echo($value['type']) ?> <br>
                                 </div>
                             </div>
                             <div class="card-footer">
                                 <div class="buttonSurat d-flex justify-content-end">
-                                    <a href="" class="btn btn-light bg-hijau btn-sm" style="margin-right:8px;">
+                                    <a href="<?php echo(base_url()); ?>/Quran/surat/<?php echo($value['nomor']) ?>/" class="btn btn-success bg-hijau btn-sm" style="margin-right:8px;">
                                         Baca
                                     </a>
                                     <button class="btn btn-secondary btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample<?= $i ?>" aria-expanded="false" aria-controls="collapseExample">
@@ -47,7 +47,7 @@
                                 </div>
                                 <div class="collapse mt-2" id="collapseExample<?= $i ?>">
                                     <div class="card card-body">
-                                        <?= $i ?>Surat <i>Al Faatihah</i> (Pembukaan) yang diturunkan di Mekah dan terdiri dari 7 ayat adalah surat yang pertama-tama diturunkan dengan lengkap  diantara surat-surat yang ada dalam Al Quran dan termasuk golongan surat Makkiyyah. Surat ini disebut <i>Al Faatihah</i> (Pembukaan), karena dengan surat inilah dibuka dan dimulainya Al Quran. Dinamakan <i>Ummul Quran</i> (induk Al Quran) atau <i>Ummul Kitaab</i> (induk Al Kitaab) karena dia merupakan induk dari semua isi Al Quran, dan karena itu diwajibkan membacanya pada tiap-tiap sembahyang.<br> Dinamakan pula <i>As Sab'ul matsaany</i> (tujuh yang berulang-ulang) karena ayatnya tujuh dan dibaca berulang-ulang dalam sholat.
+                                        <?php echo($value['keterangan']) ?>
                                     </div>
                                 </div>
                                 

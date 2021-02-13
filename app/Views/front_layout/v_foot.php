@@ -7,6 +7,8 @@
         <script src="<?php echo base_url(); ?>/assets/public/js/countdown.js"></script>
         <script src="<?php echo base_url(); ?>/assets/public/js/jadwal_shalat.js"></script>
         <script src="<?php echo base_url(); ?>/assets/public/js/quotes_api.js"></script>
+        <?php } elseif ($lokasi=="Quran") {?>
+        <script src="<?php echo base_url(); ?>/assets/public/js/ayat.js"></script>
         <?php } ?>
 
     </body>
