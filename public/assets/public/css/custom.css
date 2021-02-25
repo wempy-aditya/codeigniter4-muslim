@@ -121,6 +121,10 @@
         font-size: 18px;
     }
 
+    .linkDisabled {
+        visibility : hidden;
+    }
+
 
     /* RESPONSIVE CSS
     -------------------------------------------------- */

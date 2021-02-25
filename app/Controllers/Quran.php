@@ -29,6 +29,8 @@ class Quran extends BaseController
 	{
 		if ($id_surat > 114) {
 			return redirect()->to('/Quran');
+		} elseif ($id_surat == 0) {
+			return redirect()->to('/Quran');
 		}
         $surah = $this->Quran_model->get_surat_detail($id_surat);
         $ayat = $this->Quran_model->get_ayat_by_surat($id_surat);

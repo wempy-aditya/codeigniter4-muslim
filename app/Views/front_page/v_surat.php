@@ -9,7 +9,7 @@
                     <h5 class="text-center">Surat ke-<?php echo($surat['id_surah']) ?>. Jumlah ayat: <?php echo($surat['jumlah_ayat']) ?></h5>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mb-5">
                 <div class="col">
                     <?php foreach ($ayat as $key => $value) { ?>
                         <div id="ayat<?php echo($value['nomor_ayat']) ?>">
@@ -29,6 +29,19 @@
                             <hr>
                         </div>
                     <?php } ?>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex justify-content-between">
+                        <?php
+                            $previousSurat = $surat['id_surah'] - 1;
+                            $nextSurat = $surat['id_surah'] + 1;
+                        ?>
+                        <a href="/Quran/surat/<?php echo($previousSurat) ?>" type="button" class="btn btn-secondary btn-sm <?php if($previousSurat == 0){ echo"linkDisabled"; }?>">Surat Sebelumnya</a>
+                        <a href="/Quran/surat/<?php echo($nextSurat) ?>" type="button" class="btn btn-secondary btn-sm <?php if($nextSurat == 115){ echo"linkDisabled"; }?>">Surat Selanjutnya</a>
+                    </div>
                 </div>
             </div>
         </div>

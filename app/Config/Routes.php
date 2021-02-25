@@ -41,6 +41,9 @@ $routes->get('Quran', 'Quran::index');
 $routes->get('Quran/index', 'Quran::index');
 $routes->get('Quran/surat/(:num)', 'Quran::surat/$1');
 
+$routes->get('Murottal', 'Murottal::index');
+$routes->get('Murottal/index', 'Murottal::index');
+
 // $routes->resource('Rest_api');
 $routes->get('Rest_api', 'Rest_api::index');
 $routes->get('Rest_api/index', 'Rest_api::index');
