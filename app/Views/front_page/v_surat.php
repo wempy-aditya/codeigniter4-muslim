@@ -39,8 +39,8 @@
                             $previousSurat = $surat['id_surah'] - 1;
                             $nextSurat = $surat['id_surah'] + 1;
                         ?>
-                        <a href="/Quran/surat/<?php echo($previousSurat) ?>" type="button" class="btn btn-secondary btn-sm <?php if($previousSurat == 0){ echo"linkDisabled"; }?>">Surat Sebelumnya</a>
-                        <a href="/Quran/surat/<?php echo($nextSurat) ?>" type="button" class="btn btn-secondary btn-sm <?php if($nextSurat == 115){ echo"linkDisabled"; }?>">Surat Selanjutnya</a>
+                        <a href="/Quran/surat/<?php echo($previousSurat) ?>" type="button" class="btn btn-outline-secondary btn-sm <?php if($previousSurat == 0){ echo"linkDisabled"; }?>">Surat Sebelumnya</a>
+                        <a href="/Quran/surat/<?php echo($nextSurat) ?>" type="button" class="btn btn-outline-secondary btn-sm <?php if($nextSurat == 115){ echo"linkDisabled"; }?>">Surat Selanjutnya</a>
                     </div>
                 </div>
             </div>
