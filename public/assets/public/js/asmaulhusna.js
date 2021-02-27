@@ -1,4 +1,4 @@
-async function randomQuote() {
+async function loadDataAsmaulHusna() {
     fetch("/assets/public/api/data/dataAsmaulHusna.json")
     .then(function(response) {
         return response.json()
@@ -17,21 +17,27 @@ async function randomQuote() {
         document.getElementById('dataAsmaulHusna').innerHTML = list;
     })
 }
-randomQuote()
+loadDataAsmaulHusna()
 
 var scrolldelay;
-function pageScroll1() { 
+function playAsmaulHusna() { 
     playAudio();
-    pageScroll();
+    startScroll();
 }
-function pageScroll() {
+function startScroll() {
     window.scrollBy(0,48);
-    scrolldelay = setTimeout(pageScroll, 2240);
+    scrolldelay = setTimeout(startScroll, 2236);
 }
+// var audioAsmaulHusna = new Audio('/assets/public/audio/Asmaul_Husna.mp3');
+var audioAsmaulHusna = document.getElementById('audioAsmaulHusna');
 function playAudio() {
-    var audioAsmaulHusna = new Audio('/assets/public/audio/Asmaul_Husna.mp3');
-    audioAsmaulHusna.play()
+    audioAsmaulHusna.play();
+}
+function stopAudio() {
+    audioAsmaulHusna.pause();
 }
 function stopScroll() {
+    stopAudio()
     clearTimeout(scrolldelay);
+    window.scrollTo({top: 0, behavior: 'smooth'});
 }
