@@ -12,7 +12,7 @@ async function loadDataAsmaulHusna() {
             nomer++
             list += '<div class="accordion-item">'+
                     '<h2 class="accordion-header" id="heading'+ nomer +'">'+
-                    '<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse'+ nomer +'" aria-expanded="true" aria-controls="collapse'+ nomer +'">'+
+                    '<button class="accordion-button text-start collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse'+ nomer +'" aria-expanded="true" aria-controls="collapse'+ nomer +'">'+
                     itemData.title+
                     '</button>'+
                     '</h2>'+

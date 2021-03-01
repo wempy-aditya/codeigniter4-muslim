@@ -134,6 +134,13 @@
         top: 0;
     }
 
+    .back-to-top {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        display: none;
+    }
+
 
     /* RESPONSIVE CSS
     -------------------------------------------------- */
@@ -180,6 +187,11 @@
         }
         .navItem {
             font-size: 15px;
+        }
+
+        .back-to-top {
+            bottom: 25px;
+            right: 25px;
         }
     }
 

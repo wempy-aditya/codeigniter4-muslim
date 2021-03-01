@@ -2,7 +2,7 @@
 
     <div style="background-color:white;">
         <div class="container pt-4 pb-4">
-            <div class="row mb-4">
+            <div class="row mb-5">
                 <div class="col">
                     <h1 class="text-center sectionTitle textShadow" data-aos="fade-up">Kumpulan Doa Harian</h1>
                 </div>
