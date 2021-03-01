@@ -47,6 +47,9 @@ $routes->get('Murottal/index', 'Murottal::index');
 $routes->get('Asmaul_husna', 'Asmaul_husna::index');
 $routes->get('Asmaul_husna/index', 'Asmaul_husna::index');
 
+$routes->get('Doa_harian', 'Doa_harian::index');
+$routes->get('Doa_harian/index', 'Doa_harian::index');
+
 
 // $routes->resource('Rest_api');
 $routes->get('Rest_api', 'Rest_api::index');

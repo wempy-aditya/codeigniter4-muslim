@@ -22,12 +22,19 @@
                             <li class="nav-item">
                                 <a class="nav-link text-light navItem" href="<?php echo base_url();?>/Murottal">Murottal</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-light navItem" href="<?php echo base_url();?>/Asmaul_husna">Asmaul-Husna</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link text-light navItem dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Fitur Lainnya
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item navItem" href="<?php echo base_url();?>/Asmaul_husna">Asmaul-Husna</a></li>
+                                    <li><a class="dropdown-item navItem" href="<?php echo base_url();?>/Doa_harian">Doa Harian</a></li>
+                                </ul>
                             </li>
                         </ul>
-                        <span class="navbar-text text-light">
-                            by <a href="https://wempy.tech" target="_blank">Wempy Tech</a>
+                        <span class="navbar-text">
+                            <!-- <a href="https://wempy.tech" target="_blank">Wempy Tech</a> -->
+                            <a href="https://wempy.tech" target="_blank" class="btn btn-outline-light">Wempy Tech</a>
                         </span>
                     </div>
                 </div>

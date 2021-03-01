@@ -8,4 +8,4 @@ setInterval(async function() {
         document.getElementById('quoteBody').innerText = data.quotes[0].quote_body;
         document.getElementById('quoteAuthor').innerText = data.quotes[0].quote_author;
     })
-}, 7000);
+}, 9000);

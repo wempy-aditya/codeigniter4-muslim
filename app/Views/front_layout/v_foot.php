@@ -11,6 +11,8 @@
         <script src="<?php echo base_url(); ?>/assets/public/js/ayat.js"></script>
         <?php }  elseif ($lokasi=="Asmaul_Husna") {?>
         <script src="<?php echo base_url(); ?>/assets/public/js/asmaulhusna.js"></script>
+        <?php } elseif ($lokasi=="Doa_Harian") { ?>
+        <script src="<?php echo base_url(); ?>/assets/public/js/doaharian.js"></script>
         <?php } ?>
 
     </body>
