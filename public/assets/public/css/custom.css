@@ -141,6 +141,13 @@
         display: none;
     }
 
+    .footerLink:link {
+        text-decoration: none;
+    }
+    .footerLink:hover {
+        text-decoration: underline;
+    }
+
 
     /* RESPONSIVE CSS
     -------------------------------------------------- */
