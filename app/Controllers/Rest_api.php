@@ -2,6 +2,7 @@
 use CodeIgniter\Controller;
 use App\Models\Quran_model;
 use App\Models\Quotes_model;
+use App\Models\Wirid_model;
 use CodeIgniter\RESTful\ResourceController;
 
 class Rest_api extends ResourceController
@@ -9,11 +10,13 @@ class Rest_api extends ResourceController
     protected $format = 'json';
     protected $Quran_model;
     protected $Quotes_model;
+    protected $Wirid_model;
 
     public function __construct()
     {
         $this->Quran_model = new Quran_model();
         $this->Quotes_model = new Quotes_model();
+        $this->Wirid_model = new Wirid_model();
     }
 
 	public function index()
@@ -70,6 +73,28 @@ class Rest_api extends ResourceController
             "select" => "random",
             "total" => $total,
             "quotes" => $quotes
+        ];
+        return $this->respond($respon, 200);
+    }
+
+    public function get_all_wirid($order, $limit) 
+    {
+        $wirid = $this->Wirid_model->get_all_wirid($order, $limit);
+        $respon = [
+            "status" => "success",
+            "total" => $limit,
+            "order" => $order,
+            "wirid" => $wirid
+        ];
+        return $this->respond($respon, 200);
+    }
+    public function get_wirid($id_wirid) 
+    {
+        $wirid = $this->Wirid_model->get_wirid($id_wirid);
+        $respon = [
+            "status" => "success",
+            "total" => 1, 
+            "wirid" => $wirid,
         ];
         return $this->respond($respon, 200);
     }

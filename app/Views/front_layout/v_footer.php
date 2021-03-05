@@ -5,7 +5,7 @@
         </a>
             <footer class="footer mt-auto py-3 mt-5"  style="background-color: #5c8d89;">
                 <div class="container text-light">
-                    <div class="row">
+                    <div class="row navTextColor">
                         <div class="col-lg-3 col-md-12 pt-3 pb-2 text-center">
                             <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-bookmarks-fill" viewBox="0 0 20 20">
                                 <path d="M2 4a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v11.5a.5.5 0 0 1-.777.416L7 13.101l-4.223 2.815A.5.5 0 0 1 2 15.5V4z"/>
@@ -14,8 +14,8 @@
                             <h6><b>Ramadhan</b> Website</h6>
                         </div>
                         <div class="col-lg-5 col-md-12 pt-3 pb-2 ps-3 pe-3">
-                            <h5><b>Tentang Website</b></h5>
-                            <p>
+                            <h6><b>Tentang Website</b></h6>
+                            <p class="fw-light navTextSize">
                                 Ini adalah Website yang dibuat oleh Wempy.Tech spesial untuk bulan Ramadhan. 
                                 Website ini memiliki fitur hitung mundur bulan Ramadhan dan Idul Fitri, 
                                 Jadwal Shalat untuk seluruh daerah di Indonesia, Al-Quran Online, Murottal, 
@@ -24,21 +24,21 @@
                         </div>
                         <div class="col-lg-4 col-md-12 pt-3 pb-2 ps-3 pe-3">
                             <div class="row">
-                                <h5><b>Peta Situs</b></h5>
+                                <h6><b>Peta Situs</b></h6>
                                 <div class="col">
-                                    <ul class="list-unstyled">
-                                        <li><a href="" class="text-light footerLink">Home</a></li>
-                                        <li><a href="" class="text-light footerLink">Al-Quran</a></li>
-                                        <li><a href="" class="text-light footerLink">Murottal</a></li>
-                                        <li><a href="" class="text-light footerLink">Asmaul-Husna</a></li>
+                                    <ul class="list-unstyled fw-light navTextSize">
+                                        <li><a href="" class="footerLink">Home</a></li>
+                                        <li><a href="" class="footerLink">Al-Quran</a></li>
+                                        <li><a href="" class="footerLink">Murottal</a></li>
+                                        <li><a href="" class="footerLink">Asmaul-Husna</a></li>
                                     </ul>
                                 </div>
                                 <div class="col">
-                                    <ul class="list-unstyled">
-                                        <li><a href="" class="text-light footerLink">Home</a></li>
-                                        <li><a href="" class="text-light footerLink">Al-Quran</a></li>
-                                        <li><a href="" class="text-light footerLink">Murottal</a></li>
-                                        <li><a href="" class="text-light footerLink">Asmaul-Husna</a></li>
+                                    <ul class="list-unstyled fw-light navTextSize">
+                                        <li><a href="" class="footerLink">Home</a></li>
+                                        <li><a href="" class="footerLink">Al-Quran</a></li>
+                                        <li><a href="" class="footerLink">Murottal</a></li>
+                                        <li><a href="" class="footerLink">Asmaul-Husna</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -47,7 +47,7 @@
                     <hr style="color:white;height:4px;">
                     <div class="row">
                         <div class="col">
-                            <span class="">&copy; Copyright <?php echo(date('Y')); ?> by <a href="https://wempy.tech" target="_blank" rel="noopener noreferrer" class="text-light">Wempy.Tech</a></span>
+                            <span class="">&copy; Copyright <?php echo(date('Y')); ?> by <a href="https://wempy.tech" target="_blank" rel="noopener noreferrer" class="footerLink">Wempy.Tech</a></span>
                         </div>
                         <div class="col text-end">
                             <span class="">V 2.1.0</span>

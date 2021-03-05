@@ -10,7 +10,7 @@ async function loadDataAsmaulHusna() {
         var nomer = 0;
         data.data.forEach((itemData) => {
             nomer++
-            list += '<div class="accordion-item">'+
+            list += '<div class="accordion-item" data-aos="zoom-in-up">'+
                     '<h2 class="accordion-header" id="heading'+ nomer +'">'+
                     '<button class="accordion-button text-start collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse'+ nomer +'" aria-expanded="true" aria-controls="collapse'+ nomer +'">'+
                     itemData.title+

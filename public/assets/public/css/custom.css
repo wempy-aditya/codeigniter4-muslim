@@ -141,10 +141,19 @@
         display: none;
     }
 
-    .footerLink:link {
+    .navTextColor {
+        color: #f4f9f4;
+        opacity: 0.7;
+    }
+    .navTextSize {
+        font-size: 15px;
+    }
+    .footerLink {
+        color: #f4f9f4;
         text-decoration: none;
     }
     .footerLink:hover {
+        color: white;
         text-decoration: underline;
     }
 

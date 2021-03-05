@@ -21,20 +21,24 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <div class="table-responsive">
-                        <table class="table table-hover">
-                            <thead>
-                                <tr>
-                                    <th scope="col">No</th>
-                                    <th scope="col">Arab</th>
-                                    <th scope="col">Latin</th>
-                                    <th scope="col">Arti</th>
-                                </tr>
-                            </thead>
-                            <tbody id="dataAsmaulHusna">
-                            </tbody>
-                        </table>
-                        <div style="height:60vh;" id="loadingAsmaulHusna"><div class="d-flex justify-content-center mt-5"><div class="spinner-border" style="width: 4rem; height: 4rem;" role="status"><span class="visually-hidden">Loading...</span></div></div></div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">No</th>
+                                            <th scope="col">Arab</th>
+                                            <th scope="col">Latin</th>
+                                            <th scope="col">Arti</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="dataAsmaulHusna">
+                                    </tbody>
+                                </table>
+                                <div style="height:60vh;" id="loadingAsmaulHusna"><div class="d-flex justify-content-center mt-5"><div class="spinner-border" style="width: 4rem; height: 4rem;" role="status"><span class="visually-hidden">Loading...</span></div></div></div>
+                            </div>
+                        </div>
                     </div>
                     <button class="btn btn-secondary" onclick="stopScroll()">Stop and Back to Top</button>
                     <audio style="visibility:hidden;" id="audioAsmaulHusna" controls controlsList="nodownload" preload="none">

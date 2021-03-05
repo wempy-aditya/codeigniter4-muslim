@@ -28,7 +28,6 @@ function startScroll() {
     window.scrollBy(0,48);
     scrolldelay = setTimeout(startScroll, 2236);
 }
-// var audioAsmaulHusna = new Audio('/assets/public/audio/Asmaul_Husna.mp3');
 var audioAsmaulHusna = document.getElementById('audioAsmaulHusna');
 function playAudio() {
     audioAsmaulHusna.play();
@@ -37,7 +36,7 @@ function stopAudio() {
     audioAsmaulHusna.pause();
 }
 function stopScroll() {
-    stopAudio()
+    stopAudio();
     clearTimeout(scrolldelay);
     window.scrollTo({top: 0, behavior: 'smooth'});
 }
