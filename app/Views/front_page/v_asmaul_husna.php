@@ -21,7 +21,7 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <div class="card">
+                    <div class="card cardShadow" data-aos="fade-down">
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table table-hover">

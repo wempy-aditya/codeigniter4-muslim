@@ -9,7 +9,8 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <div class="card">
+                    <div class="card cardShadow" data-aos="fade-down">
+                        <div class="card-header bg-hijau1"></div>
                         <div class="card-body">
                             <div class="accordion accordion-flush" id="doaHarian">
                                 <div style="height:60vh;"><div class="d-flex justify-content-center mt-5" id="loadingAsmaulHusna"><div class="spinner-border" style="width: 4rem; height: 4rem;" role="status"><span class="visually-hidden">Loading...</span></div></div></div>
