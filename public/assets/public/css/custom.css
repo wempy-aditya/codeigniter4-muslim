@@ -157,6 +157,19 @@
         text-decoration: underline;
     }
 
+    .buttonAdd {
+        color: #74b49b;
+    }
+    .buttonAdd:hover {
+        color: #5c8d89;
+    }
+    .buttonPlusMinus {
+        opacity:0.7;
+    }
+    .buttonPlusMinus:hover {
+        opacity:1;
+    }
+
 
     /* RESPONSIVE CSS
     -------------------------------------------------- */

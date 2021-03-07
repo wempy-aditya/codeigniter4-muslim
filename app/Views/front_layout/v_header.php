@@ -29,11 +29,11 @@
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item navItem" href="<?php echo base_url();?>/Asmaul_husna">Asmaul-Husna</a></li>
                                     <li><a class="dropdown-item navItem" href="<?php echo base_url();?>/Doa_harian">Doa Harian</a></li>
+                                    <li><a class="dropdown-item navItem" href="<?php echo base_url();?>/Tasbih">Tasbih</a></li>
                                 </ul>
                             </li>
                         </ul>
-                        <span class="navbar-text">
-                            <!-- <a href="https://wempy.tech" target="_blank">Wempy Tech</a> -->
+                        <span class="">
                             <a href="https://wempy.tech" target="_blank" class="btn btn-outline-light">Wempy Tech</a>
                         </span>
                     </div>

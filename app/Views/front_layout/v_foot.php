@@ -14,6 +14,8 @@
         <script src="<?php echo base_url(); ?>/assets/public/js/asmaulhusna.js"></script>
         <?php } elseif ($lokasi=="Doa_Harian") { ?>
         <script src="<?php echo base_url(); ?>/assets/public/js/doaharian.js"></script>
+        <?php } elseif ($lokasi=="Tasbih") { ?>
+        <script src="<?php echo base_url(); ?>/assets/public/js/tasbih.js"></script>
         <?php } ?>
 
     </body>
