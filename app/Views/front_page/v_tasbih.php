@@ -4,7 +4,7 @@
         <div class="container pt-4 pb-4">
             <div class="row mb-4">
                 <div class="col">
-                    <div class="card cardShadow" data-aos="fade-right">
+                    <div class="card cardShadow BorderRadius" data-aos="fade-right">
                         <div class="card-body d-flex justify-content-between">
                             <div class="arrowLeft">
                                 <a class="text-dark" href="#" onclick="previousBacaanTasbih(event)">
@@ -31,10 +31,10 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <div class="card cardShadow" data-aos="fade-down-right">
+                    <div class="card cardShadow BorderRadius" data-aos="fade-down-right">
                         <div class="card-body">
-                            <div class="alert alert-success text-center mb-3" role="alert">
-                                <h4>Counter : <b id="tasbihCounter">00</b></h4>
+                            <div class="alert alert-success BorderRadius1 text-center mb-3" role="alert">
+                                <h4 style="margin-bottom:0px;">Counter : <b id="tasbihCounter">00</b></h4>
                                 <input type="hidden" name="tasbihType" id="tasbihType" value="">
                             </div>
                             <div class="row mt-5 mb-5">
@@ -71,8 +71,8 @@
                             <hr>
                             <div class="row">
                                 <div class="col">
-                                    <button class="btn btn-outline-success btn-sm" type="button" onclick="resetValueTasbih(event)">Reset</button>
-                                    <button class="btn btn-outline-secondary btn-sm">Mute</button>
+                                    <button class="btn btn-outline-success btn-sm BorderRadius2" type="button" onclick="resetValueTasbih(event)">Reset</button>
+                                    <button class="btn btn-outline-secondary btn-sm BorderRadius2">Mute</button>
                                 </div>
                             </div>
                         </div>

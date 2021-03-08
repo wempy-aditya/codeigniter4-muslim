@@ -2,7 +2,7 @@
 
     <div style="background-color:white;">
         <div class="container pt-4 pb-4">
-            <div class="row mb-5">
+            <div class="row mb-4">
                 <div class="col">
                     <h1 class="text-center sectionTitle textShadow" data-aos="fade-up">Murottal Al-Quran</h1>
                 </div>
@@ -10,7 +10,7 @@
             <div class="row">
                 <?php $i=0; foreach ($murottal as $key => $value) { $i++ ?>
                     <div class="col-sm-6 mb-3">
-                        <div class="card" data-aos="zoom-in-up">
+                        <div class="card BorderRadius" data-aos="zoom-in-up">
                             <div class="card-body">
                                 <span class="badge rounded-pill bg-success"><?php echo($value['nomor']) ?></span>
                                 <b><?php echo($value['nama']) ?> (<?php echo($value['asma']) ?>)</b> <br>

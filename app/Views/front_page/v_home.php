@@ -14,8 +14,8 @@
                         </div>
                         <div class="row mb-5"> 
                             <div class="col">
-                                <div class="card countdownCard cardShadow" data-aos="zoom-in-up">
-                                    <div class="card-body countdownCardBody">
+                                <div class="card countdownCard cardShadow BorderRadius" style="background-color: #f4f9f4;" data-aos="zoom-in-up">
+                                    <div class="card-body">
                                         <p class="card-text text-center timespan" id="days">00</p>
                                     </div>
                                     <div class="card-header countdownCardHeader"><h2 class="text-center formatWaktu">Hari</h2></div>
@@ -23,8 +23,8 @@
                                 <div class="progress progressBar" style="height: 12px;" id="progressLine1"></div>
                             </div>
                             <div class="col">
-                                <div class="card countdownCard cardShadow" data-aos="zoom-in-up">
-                                    <div class="card-body countdownCardBody">
+                                <div class="card countdownCard cardShadow BorderRadius" style="background-color: #f4f9f4;" data-aos="zoom-in-up">
+                                    <div class="card-body">
                                         <p class="card-text text-center timespan" id="hours">00</p>
                                     </div>
                                     <div class="card-header countdownCardHeader"><h2 class="text-center formatWaktu">Jam</h2></div>
@@ -32,8 +32,8 @@
                                 <div class="progress progressBar" style="height: 12px;" id="progressLine2"></div>
                             </div>
                             <div class="col">
-                                <div class="card countdownCard cardShadow" data-aos="zoom-in-up">
-                                    <div class="card-body countdownCardBody">
+                                <div class="card countdownCard cardShadow BorderRadius" style="background-color: #f4f9f4;" data-aos="zoom-in-up">
+                                    <div class="card-body">
                                         <p class="card-text text-center timespan" id="minutes">00</p>
                                     </div>
                                     <div class="card-header countdownCardHeader"><h2 class="text-center formatWaktu">Menit</h2></div>
@@ -41,8 +41,8 @@
                                 <div class="progress progressBar" style="height: 12px;" id="progressLine3"></div>
                             </div>
                             <div class="col">
-                                <div class="card countdownCard cardShadow" data-aos="zoom-in-up">
-                                    <div class="card-body countdownCardBody">
+                                <div class="card countdownCard cardShadow BorderRadius" style="background-color: #f4f9f4;" data-aos="zoom-in-up">
+                                    <div class="card-body">
                                         <p class="card-text text-center timespan" id="seconds">00</p>
                                     </div>
                                     <div class="card-header countdownCardHeader"><h2 class="text-center formatWaktu">Detik</h2></div>
@@ -73,7 +73,7 @@
                         </div>
                         <div class="row mb-5"> 
                             <div class="col">
-                                <div class="card cardShadow" data-aos="zoom-in">
+                                <div class="card cardShadow BorderRadius" data-aos="zoom-in">
                                     <div class="card-body">
                                         <form id="formJadwalShalat">
                                             <input type="hidden" id="currentDate" name="tanggal" value="<?php echo(date('Y-m-d')); ?>">
@@ -96,7 +96,7 @@
                         </div>
                         <div class="row mb-5">
                             <div class="col">
-                                <div class="card cardShadow" data-aos="zoom-in-down">
+                                <div class="card cardShadow BorderRadius" data-aos="zoom-in-down">
                                     <div class="card-body">
                                         <table class="table table-striped">
                                             <thead class="text-center tableHead">
@@ -168,8 +168,8 @@
                         </div>
                         <div class="row"> 
                             <div class="col">
-                                <div class="card cardShadow" data-aos="flip-up" style="border:0px;">
-                                    <div class="card-body" style="background-color: #f4f9f4;">
+                                <div class="card cardShadow BorderRadius" data-aos="flip-up" style="background-color: #f4f9f4;">
+                                    <div class="card-body">
                                         <figure class="text-center" style="margin-top:10px;">
                                             <blockquote class="blockquote">
                                                 <p id="quoteBody">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>

@@ -7,21 +7,21 @@
                     <h1 class="text-center sectionTitle textShadow" data-aos="fade-up">Asmaul Husna</h1>
                 </div>
             </div>
-            <div class="row mb-4">
+            <div class="row mb-3">
                 <div class="col">
-                    <div class="alert alert-success d-flex justify-content-between align-items-center cardShadow" role="alert" data-aos="flip-up">
+                    <div class="alert alert-success d-flex justify-content-between align-items-center cardShadow BorderRadius1" role="alert" data-aos="flip-up">
                         <div class="notifQuran">
                             <b>Tekan tombol Play</b> <span>untuk memulai audio dan auto scroll<span>
                         </div>
                         <div>
-                            <button class="btn btn-secondary btn-sm" onclick="playAsmaulHusna()">Play</button>
+                            <button class="btn btn-secondary btn-sm BorderRadius2" onclick="playAsmaulHusna()">Play</button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <div class="card cardShadow" data-aos="fade-down">
+                    <div class="card cardShadow BorderRadius" data-aos="fade-down">
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table table-hover">
@@ -40,7 +40,7 @@
                             </div>
                         </div>
                     </div>
-                    <button class="btn btn-secondary" onclick="stopScroll()">Stop and Back to Top</button>
+                    <button class="btn btn-secondary BorderRadius2" onclick="stopScroll()">Stop and Back to Top</button>
                     <audio style="visibility:hidden;" id="audioAsmaulHusna" controls controlsList="nodownload" preload="none">
                         <source src="<?php base_url() ?>/assets/public/audio/Asmaul_Husna.mp3">
                         Your browser does not support the audio element.

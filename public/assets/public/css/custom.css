@@ -99,6 +99,16 @@
         font-size: 20px;
     }
 
+    .BorderRadius { 
+        border-radius: 30px 30px 30px 30px;
+    }
+    .BorderRadius1 { 
+        border-radius: 16px 16px 16px 16px;
+    }
+    .BorderRadius2 { 
+        border-radius: 10px 10px 10px 10px;
+    }
+
     .progressBar {
         margin-left: 10px;
         margin-right: 10px;
@@ -231,6 +241,16 @@
         .back-to-top {
             bottom: 25px;
             right: 25px;
+        }
+
+        .BorderRadius { 
+            border-radius: 26px 26px 26px 26px;
+        }
+        .BorderRadius1 { 
+            border-radius: 14px 14px 14px 14px;
+        }
+        .BorderRadius2 { 
+            border-radius: 8px 8px 8px 8px;
         }
     }
 
