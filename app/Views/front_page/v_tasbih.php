@@ -5,10 +5,10 @@
             <div class="row mb-4">
                 <div class="col">
                     <div class="card cardShadow BorderRadius" data-aos="fade-right">
-                        <div class="card-body d-flex justify-content-between">
+                        <div class="card-body d-flex justify-content-between align-items-center">
                             <div class="arrowLeft">
                                 <a class="text-dark" href="#" onclick="previousBacaanTasbih(event)">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-left-circle" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5z"/>
                                     </svg>
                                 </a>
@@ -20,7 +20,7 @@
                             </div>
                             <div class="arrowRight">
                                 <a class="text-dark" href="#" onclick="nextBacaanTasbih(event)">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
                                         <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
                                     </svg>
                                 </a>
@@ -33,7 +33,7 @@
                 <div class="col">
                     <div class="card cardShadow BorderRadius" data-aos="fade-down-right">
                         <div class="card-body">
-                            <div class="alert alert-success BorderRadius1 text-center mb-3" role="alert">
+                            <div class="alert alert-success BorderRadius2 text-center mb-3" role="alert">
                                 <h4 style="margin-bottom:0px;">Counter : <b id="tasbihCounter">00</b></h4>
                                 <input type="hidden" name="tasbihType" id="tasbihType" value="">
                             </div>
@@ -71,8 +71,8 @@
                             <hr>
                             <div class="row">
                                 <div class="col">
-                                    <button class="btn btn-outline-success btn-sm BorderRadius2" type="button" onclick="resetValueTasbih(event)">Reset</button>
-                                    <button class="btn btn-outline-secondary btn-sm BorderRadius2">Mute</button>
+                                    <button class="btn btn-outline-success btn-sm BorderRadius3" type="button" onclick="resetValueTasbih(event)">Reset</button>
+                                    <button class="btn btn-outline-secondary btn-sm BorderRadius3" type="button" onclick="muteAudio(event)" id="muteButton">Mute</button>
                                 </div>
                             </div>
                         </div>

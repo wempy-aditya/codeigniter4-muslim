@@ -72,8 +72,21 @@ function resetValueTasbih(event) {
 }
 
 var audioClickButton = document.getElementById('audioClickButton');
+var statusAudio = false;
 function playAudio() {
     audioClickButton.play();
+}
+function muteAudio(event) {
+    var muteButton = document.getElementById('muteButton');
+    event.preventDefault();
+    if (statusAudio == false) {
+        statusAudio = true;
+        muteButton.innerText = "Unmute";
+    } else {
+        statusAudio = false;
+        muteButton.innerText = "Mute";
+    }
+    audioClickButton.muted = statusAudio;
 }
 
 document.onkeydown = clickKeyboardButton;

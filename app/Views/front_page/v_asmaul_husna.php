@@ -1,4 +1,4 @@
-<div class="content-list mt-5 mb-5">
+<div class="content-list mt-5 mb-4">
 
     <div style="background-color:white;">
         <div class="container pt-4 pb-4">
@@ -9,12 +9,12 @@
             </div>
             <div class="row mb-3">
                 <div class="col">
-                    <div class="alert alert-success d-flex justify-content-between align-items-center cardShadow BorderRadius1" role="alert" data-aos="flip-up">
+                    <div class="alert alert-success d-flex justify-content-between align-items-center cardShadow BorderRadius2" role="alert" data-aos="flip-up">
                         <div class="notifQuran">
                             <b>Tekan tombol Play</b> <span>untuk memulai audio dan auto scroll<span>
                         </div>
                         <div>
-                            <button class="btn btn-secondary btn-sm BorderRadius2" onclick="playAsmaulHusna()">Play</button>
+                            <button class="btn btn-secondary btn-sm BorderRadius3" onclick="playAsmaulHusna()">Play</button>
                         </div>
                     </div>
                 </div>
@@ -40,8 +40,8 @@
                             </div>
                         </div>
                     </div>
-                    <button class="btn btn-secondary BorderRadius2" onclick="stopScroll()">Stop and Back to Top</button>
-                    <audio style="visibility:hidden;" id="audioAsmaulHusna" controls controlsList="nodownload" preload="none">
+                    <button class="btn btn-secondary mt-4 BorderRadius3" onclick="stopScroll()">Stop and Back to Top</button>
+                    <audio style="visibility:hidden;height:0px;" id="audioAsmaulHusna" controls controlsList="nodownload" preload="none">
                         <source src="<?php base_url() ?>/assets/public/audio/Asmaul_Husna.mp3">
                         Your browser does not support the audio element.
                     </audio>

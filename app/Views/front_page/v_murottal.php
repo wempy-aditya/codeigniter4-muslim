@@ -9,14 +9,14 @@
             </div>
             <div class="row">
                 <?php $i=0; foreach ($murottal as $key => $value) { $i++ ?>
-                    <div class="col-sm-6 mb-3">
-                        <div class="card BorderRadius" data-aos="zoom-in-up">
+                    <div class="col-sm-6 mb-4">
+                        <div class="card cardShadow1 BorderRadius" data-aos="zoom-in-up">
                             <div class="card-body">
                                 <span class="badge rounded-pill bg-success"><?php echo($value['nomor']) ?></span>
                                 <b><?php echo($value['nama']) ?> (<?php echo($value['asma']) ?>)</b> <br>
                                 Arti : <?php echo($value['arti']) ?> <br>
                             </div>
-                            <div class="card-footer" style="background-color:#f1f3f4;">
+                            <div class="card-footer borderRadiusBottom" style="background-color:#f1f3f4;">
                                 <audio style="width:100%;" controls controlsList="nodownload" preload="none">
                                     <source src="<?php echo($value['audio']) ?>" type="audio/mpeg">
                                     Your browser does not support the audio element.

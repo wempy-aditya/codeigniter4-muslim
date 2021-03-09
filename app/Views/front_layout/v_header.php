@@ -34,7 +34,7 @@
                             </li>
                         </ul>
                         <span class="">
-                            <a href="https://wempy.tech" target="_blank" class="btn btn-outline-light BorderRadius2">Wempy Tech</a>
+                            <a href="https://wempy.tech" target="_blank" class="btn btn-outline-light BorderRadius3">Wempy Tech</a>
                         </span>
                     </div>
                 </div>

@@ -75,9 +75,9 @@
     .countdownCardBody{
         background-color: #f4f9f4;
     }
-    .countdownCardHeader {
+    .countdownCardFooter {
         background-color: #74b49b;
-        border-bottom:0px;
+        border:0px;
     }
 
     .cardCircleShadow {
@@ -92,6 +92,12 @@
         -moz-box-shadow: 4px 6px 16px 0px rgba(57,62,70,0.32);
         box-shadow: 4px 6px 16px 0px rgba(57,62,70,0.32);
     }
+    .cardShadow1 {
+        border: 0px;
+        -webkit-box-shadow: 3px 5px 14px 0px rgba(57,62,70,0.32);
+        -moz-box-shadow: 3px 5px 14px 0px rgba(57,62,70,0.32);
+        box-shadow: 3px 5px 14px 0px rgba(57,62,70,0.32);
+    }
     .textShadow {
         text-shadow: 2px 2px 5px rgba(150, 150, 150, 1);
     }
@@ -99,14 +105,34 @@
         font-size: 20px;
     }
 
+    .cardFooter {
+        border-top: 0px;
+    }
+
     .BorderRadius { 
-        border-radius: 30px 30px 30px 30px;
+        border-radius: 26px 26px 26px 26px !important;
     }
     .BorderRadius1 { 
-        border-radius: 16px 16px 16px 16px;
+        border-radius: 22px 22px 22px 22px;
     }
     .BorderRadius2 { 
-        border-radius: 10px 10px 10px 10px;
+        border-radius: 16px 16px 16px 16px;
+    }
+    .BorderRadius3 { 
+        border-radius: 11px 11px 11px 11px;
+    }
+
+    .borderRadiusTop { 
+        border-top-left-radius:26px !important;
+        border-top-right-radius:26px !important;
+    }
+    .borderRadiusBottom { 
+        border-bottom-left-radius:26px !important;
+        border-bottom-right-radius:26px !important;
+    }
+    .borderRadiusBottom1 { 
+        border-bottom-left-radius:22px !important;
+        border-bottom-right-radius:22px !important;
     }
 
     .progressBar {
@@ -244,13 +270,29 @@
         }
 
         .BorderRadius { 
-            border-radius: 26px 26px 26px 26px;
+            border-radius: 23px 23px 23px 23px;
         }
         .BorderRadius1 { 
-            border-radius: 14px 14px 14px 14px;
+            border-radius: 19px 19px 19px 19px;
         }
         .BorderRadius2 { 
+            border-radius: 14px 14px 14px 14px;
+        }
+        .BorderRadius3 { 
             border-radius: 8px 8px 8px 8px;
+        }
+
+        .borderRadiusTop { 
+            border-top-left-radius:23px !important;
+            border-top-right-radius:23px !important;
+        }
+        .borderRadiusBottom { 
+            border-bottom-left-radius:23px !important;
+            border-bottom-right-radius:23px !important;
+        }
+        .borderRadiusBottom1 { 
+            border-bottom-left-radius:19px !important;
+            border-bottom-right-radius:19px !important;
         }
     }
 

@@ -14,43 +14,43 @@
                         </div>
                         <div class="row mb-5"> 
                             <div class="col">
-                                <div class="card countdownCard cardShadow BorderRadius" style="background-color: #f4f9f4;" data-aos="zoom-in-up">
+                                <div class="card countdownCard cardShadow BorderRadius1" style="background-color: #f4f9f4;" data-aos="zoom-in-up">
                                     <div class="card-body">
                                         <p class="card-text text-center timespan" id="days">00</p>
                                     </div>
-                                    <div class="card-header countdownCardHeader"><h2 class="text-center formatWaktu">Hari</h2></div>
+                                    <div class="card-footer countdownCardFooter borderRadiusBottom1"><h2 class="text-center formatWaktu">Hari</h2></div>
                                 </div>
                                 <div class="progress progressBar" style="height: 12px;" id="progressLine1"></div>
                             </div>
                             <div class="col">
-                                <div class="card countdownCard cardShadow BorderRadius" style="background-color: #f4f9f4;" data-aos="zoom-in-up">
+                                <div class="card countdownCard cardShadow BorderRadius1" style="background-color: #f4f9f4;" data-aos="zoom-in-up">
                                     <div class="card-body">
                                         <p class="card-text text-center timespan" id="hours">00</p>
                                     </div>
-                                    <div class="card-header countdownCardHeader"><h2 class="text-center formatWaktu">Jam</h2></div>
+                                    <div class="card-footer countdownCardFooter borderRadiusBottom1"><h2 class="text-center formatWaktu">Jam</h2></div>
                                 </div>
                                 <div class="progress progressBar" style="height: 12px;" id="progressLine2"></div>
                             </div>
                             <div class="col">
-                                <div class="card countdownCard cardShadow BorderRadius" style="background-color: #f4f9f4;" data-aos="zoom-in-up">
+                                <div class="card countdownCard cardShadow BorderRadius1" style="background-color: #f4f9f4;" data-aos="zoom-in-up">
                                     <div class="card-body">
                                         <p class="card-text text-center timespan" id="minutes">00</p>
                                     </div>
-                                    <div class="card-header countdownCardHeader"><h2 class="text-center formatWaktu">Menit</h2></div>
+                                    <div class="card-footer countdownCardFooter borderRadiusBottom1"><h2 class="text-center formatWaktu">Menit</h2></div>
                                 </div>
                                 <div class="progress progressBar" style="height: 12px;" id="progressLine3"></div>
                             </div>
                             <div class="col">
-                                <div class="card countdownCard cardShadow BorderRadius" style="background-color: #f4f9f4;" data-aos="zoom-in-up">
+                                <div class="card countdownCard cardShadow BorderRadius1" style="background-color: #f4f9f4;" data-aos="zoom-in-up">
                                     <div class="card-body">
                                         <p class="card-text text-center timespan" id="seconds">00</p>
                                     </div>
-                                    <div class="card-header countdownCardHeader"><h2 class="text-center formatWaktu">Detik</h2></div>
+                                    <div class="card-footer countdownCardFooter borderRadiusBottom1"><h2 class="text-center formatWaktu">Detik</h2></div>
                                 </div>
                                 <div class="progress progressBar" style="height: 12px;" id="progressLine4"></div>
                             </div>
                         </div>
-                        <div class="row mb-5">
+                        <div class="row mb-5" data-aos="zoom-in-right">
                             <div class="col">
                                 <div class="catatan">
                                     <b>Catatan : </b>
@@ -71,15 +71,15 @@
                                 <h1 class="text-center sectionTitle textShadow" data-aos="fade-up">Jadwal Shalat & Imsakiyah</h1>
                             </div>
                         </div>
-                        <div class="row mb-5"> 
+                        <div class="row mb-4"> 
                             <div class="col">
-                                <div class="card cardShadow BorderRadius" data-aos="zoom-in">
+                                <div class="card cardShadow BorderRadius1" data-aos="zoom-in">
                                     <div class="card-body">
                                         <form id="formJadwalShalat">
                                             <input type="hidden" id="currentDate" name="tanggal" value="<?php echo(date('Y-m-d')); ?>">
                                             <div class="">
                                                 <label for="Kota" class="form-label">Jadwal shalat untuk semua daerah di Indonesia</label>
-                                                <select id="locationSelect" class="form-select" aria-label="Default select example">
+                                                <select id="locationSelect" class="form-select BorderRadius3" aria-label="Default select example">
                                                     <option value="none">-- Plih Daerah --</option>
                                                     <?php foreach ($kota as $key => $value) { ?>
                                                     <option value="<?php echo($value['id']) ?>_<?php echo($value['nama']) ?>"><?php echo($value['nama']) ?></option>
@@ -88,8 +88,8 @@
                                             </div>
                                         </form>
                                     </div>
-                                    <div class="card-header" style="background-color:#a7d7c5;border-bottom:0px;">
-                                        <button id="buttonLocation" class="btn btn-secondary">Submit</button>
+                                    <div class="card-footer borderRadiusBottom1" style="background-color:#a7d7c5;border:0px;">
+                                        <button id="buttonLocation" class="btn btn-secondary BorderRadius3">Submit</button>
                                     </div>
                                 </div>
                             </div>
@@ -156,7 +156,7 @@
                 </div>
 
                 <div style="background-color: #ffffff;">
-                    <div class="container pt-4 pb-5">
+                    <div class="container pt-4 pb-4">
                         <div class="row mt-4 mb-3" data-aos="fade-up">
                             <div class="col d-flex justify-content-center">
                                 <hr style="width:26%;height:2px;margin-right:16px;">
@@ -186,7 +186,3 @@
                 </div>
 
             </div>
-
-            <!-- <div class="row mt-4" id="testingq">    
-                <h1 class="text-center" id="loadText">Loading Gan....</h1>
-            </div> -->
