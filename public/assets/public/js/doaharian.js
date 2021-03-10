@@ -18,7 +18,7 @@ async function loadDataAsmaulHusna() {
                     '</h2>'+
                     '<div id="collapse'+ nomer +'" class="accordion-collapse collapse" aria-labelledby="heading'+ nomer +'" data-bs-parent="#doaHarian">'+
                     '<div class="accordion-body">'+
-                    '<h4 class="text-end ayatArab">'+ itemData.arabic +'</h4><br>'+
+                    '<h4 class="text-end ayatArab1">'+ itemData.arabic +'</h4><br>'+
                     '<b>'+ itemData.latin +'</b><br>'+
                     '<p>'+ itemData.translation +'</p>'+
                     '</div>'+

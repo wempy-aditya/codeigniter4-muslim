@@ -29,7 +29,8 @@
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                     <li><a class="dropdown-item navItem" href="<?php echo base_url();?>/Asmaul_husna">Asmaul-Husna</a></li>
                                     <li><a class="dropdown-item navItem" href="<?php echo base_url();?>/Doa_harian">Doa Harian</a></li>
-                                    <li><a class="dropdown-item navItem" href="<?php echo base_url();?>/Tasbih">Tasbih</a></li>
+                                    <li><a class="dropdown-item navItem" href="<?php echo base_url();?>/Bacaan_shalat">Bacaan Shalat</a></li>
+                                    <li><a class="dropdown-item navItem" href="<?php echo base_url();?>/Tasbih">Tasbih Digital</a></li>
                                 </ul>
                             </li>
                         </ul>

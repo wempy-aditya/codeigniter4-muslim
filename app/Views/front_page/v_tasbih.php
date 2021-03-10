@@ -31,7 +31,7 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <div class="card cardShadow BorderRadius" data-aos="fade-down-right">
+                    <div class="card cardShadow BorderRadius" data-aos="fade-right">
                         <div class="card-body">
                             <div class="alert alert-success BorderRadius2 text-center mb-3" role="alert">
                                 <h4 style="margin-bottom:0px;">Counter : <b id="tasbihCounter">00</b></h4>

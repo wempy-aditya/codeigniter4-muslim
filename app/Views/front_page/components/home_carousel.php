@@ -11,7 +11,7 @@
                             <div class="carousel-caption text-start">
                                 <h1>Example headline.</h1>
                                 <p id="quoteRandom1">Fungsi filter() membuat array baru berisi elemen yang lolos pengecekan di dalam fungsi anonim yang dikirim sebagai parameter.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+                                <p><a class="btn btn-lg btn-primary BorderRadius3" href="#" role="button">Sign up today</a></p>
                             </div>
                         </div>
                     </div>
@@ -21,7 +21,7 @@
                             <div class="carousel-caption text-dark">
                                 <h1>Another example headline.</h1>
                                 <p id="quoteRandom1">Fungsi filter() membuat array baru berisi elemen yang lolos pengecekan di dalam fungsi anonim yang dikirim sebagai parameter.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                                <p><a class="btn btn-lg btn-primary BorderRadius3" href="#" role="button">Learn more</a></p>
                             </div>
                         </div>
                     </div>
@@ -31,7 +31,7 @@
                             <div class="carousel-caption text-end">
                                 <h1>One more for good measure.</h1>
                                 <p id="quoteRandom2">Fungsi filter() membuat array baru berisi elemen yang lolos pengecekan di dalam fungsi anonim yang dikirim sebagai parameter.</p>
-                                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+                                <p><a class="btn btn-lg btn-primary BorderRadius3" href="#" role="button">Browse gallery</a></p>
                             </div>
                         </div>
                     </div>    

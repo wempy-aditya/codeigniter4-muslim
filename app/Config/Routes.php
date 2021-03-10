@@ -53,6 +53,9 @@ $routes->get('Doa_harian/index', 'Doa_harian::index');
 $routes->get('Tasbih', 'Tasbih::index');
 $routes->get('Tasbih/index', 'Tasbih::index');
 
+$routes->get('Bacaan_shalat', 'Bacaan_shalat::index');
+$routes->get('Bacaan_shalat/index', 'Bacaan_shalat::index');
+
 // $routes->resource('Rest_api');
 $routes->get('Rest_api', 'Rest_api::index');
 $routes->get('Rest_api/index', 'Rest_api::index');

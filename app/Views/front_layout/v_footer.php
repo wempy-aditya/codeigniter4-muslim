@@ -27,18 +27,18 @@
                                 <h6><b>Peta Situs</b></h6>
                                 <div class="col">
                                     <ul class="list-unstyled fw-light navTextSize">
-                                        <li><a href="" class="footerLink">Home</a></li>
-                                        <li><a href="" class="footerLink">Al-Quran</a></li>
-                                        <li><a href="" class="footerLink">Murottal</a></li>
-                                        <li><a href="" class="footerLink">Asmaul-Husna</a></li>
+                                        <li><a href="<?php echo(base_url()); ?>/Home" class="footerLink">Home</a></li>
+                                        <li><a href="<?php echo(base_url()); ?>/Quran" class="footerLink">Al-Quran</a></li>
+                                        <li><a href="<?php echo(base_url()); ?>/Murottal" class="footerLink">Murottal</a></li>
+                                        <li><a href="<?php echo(base_url()); ?>/Asmaul_husna" class="footerLink">Asmaul-Husna</a></li>
                                     </ul>
                                 </div>
                                 <div class="col">
                                     <ul class="list-unstyled fw-light navTextSize">
-                                        <li><a href="" class="footerLink">Home</a></li>
-                                        <li><a href="" class="footerLink">Al-Quran</a></li>
-                                        <li><a href="" class="footerLink">Murottal</a></li>
-                                        <li><a href="" class="footerLink">Asmaul-Husna</a></li>
+                                        <li><a href="<?php echo(base_url()); ?>/Doa_harian" class="footerLink">Doa Harian</a></li>
+                                        <li><a href="<?php echo(base_url()); ?>/Bacaan_shalat" class="footerLink">Bacaan Shalat</a></li>
+                                        <li><a href="<?php echo(base_url()); ?>/Tasbih" class="footerLink">Tasbih Digital</a></li>
+                                        <li><a href="<?php echo(base_url()); ?>/About" class="footerLink">About</a></li>
                                     </ul>
                                 </div>
                             </div>

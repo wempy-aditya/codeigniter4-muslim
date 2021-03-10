@@ -1,6 +1,8 @@
 var idBacaanTasbih = 1;
 function previousBacaanTasbih(event) {
-    event.preventDefault();
+    if (event) {
+        event.preventDefault();
+    }
     if (idBacaanTasbih != 1) {
         idBacaanTasbih -= 1;
         loadDataAsmaulHusna(idBacaanTasbih);
@@ -24,6 +26,9 @@ async function loadDataAsmaulHusna(idBacaanTasbih) {
             document.getElementById('bacaanTasbihLatin').innerHTML = data.wirid.latin;
             document.getElementById('bacaanTasbihArti').innerHTML = data.wirid.arti;
             tasbihCounter("tasbihCounterValue"+data.wirid.id_wirid);
+        } else if(data.wirid == null) {
+            previousBacaanTasbih(event);
+            console.log("object");
         }
     })
 }

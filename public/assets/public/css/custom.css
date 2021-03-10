@@ -163,7 +163,10 @@
         font-size: 40px;
     }
     .ayatArab {
-        font-size: 40px;
+        font-size: 38px;
+    }
+    .ayatArab1 {
+        font-size: 34px;
     }
     .artiAyat {
         font-size: 18px;
@@ -185,6 +188,8 @@
         bottom: 30px;
         right: 30px;
         display: none;
+        opacity: 0.8; 
+        z-index: 9999;
     }
 
     .navTextColor {
@@ -251,7 +256,10 @@
             font-size: 35px;
         }
         .ayatArab {
-            font-size: 34px;
+            font-size: 32px;
+        }
+        .ayatArab1 {
+            font-size: 28px;
         }
         .artiAyat {
             font-size: 14px;
