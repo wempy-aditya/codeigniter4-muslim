@@ -17,11 +17,8 @@ class Home extends BaseController
 		];
 		return view('front_layout/v_wrapper', $data);
 	}
-
+	
 	public function test() {
-		// $client = \Config\Services::curlrequest(); 
-		// $response = $client->get('https://api.banghasan.com/sholat/format/json/kota')->getBody();
-		// $response1 = json_decode($response, true);
-		// print_r($response1['kota']);
+		return view('front_page/v_test');
 	}
 }

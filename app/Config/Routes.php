@@ -56,6 +56,9 @@ $routes->get('Tasbih/index', 'Tasbih::index');
 $routes->get('Bacaan_shalat', 'Bacaan_shalat::index');
 $routes->get('Bacaan_shalat/index', 'Bacaan_shalat::index');
 
+$routes->get('About', 'About::index');
+$routes->get('About/index', 'About::index');
+
 // $routes->resource('Rest_api');
 $routes->get('Rest_api', 'Rest_api::index');
 $routes->get('Rest_api/index', 'Rest_api::index');

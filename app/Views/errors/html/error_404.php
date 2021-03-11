@@ -16,29 +16,40 @@
 		margin-left: -73px;
 	}
 	body {
-		height: 100%;
-		background: #fafafa;
+		height: 100vh;
+		background: #5c8d89;
 		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 		color: #777;
 		font-weight: 300;
 	}
+	#particles-js{
+		width: 100%;
+		height: 100%;
+		top:0px;
+		background-color: #5c8d89;
+		background-size: cover;
+		background-position: 50% 50%;
+		background-repeat: no-repeat;
+		position: relative;
+	}
 	h1 {
-		font-weight: lighter;
+		font-weight: 500;
 		letter-spacing: 0.8;
-		font-size: 3rem;
+		font-size: 4rem;
 		margin-top: 0;
 		margin-bottom: 0;
-		color: #222;
+		color: #5c8d89;
 	}
 	.wrap {
-		max-width: 1024px;
-		margin: 5rem auto;
+		width:70%;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
 		padding: 2rem;
-		background: #fff;
+		background-color:#f4f9f4;
 		text-align: center;
-		border: 1px solid #efefef;
-		border-radius: 0.5rem;
-		position: relative;
+		border-radius: 2rem;
 	}
 	pre {
 		white-space: normal;
@@ -52,7 +63,9 @@
 		display: block;
 	}
 	p {
-		margin-top: 1.5rem;
+		margin-top: 1.2rem;
+		font-size: 1.2rem;
+		color: #5c8d89;
 	}
 	.footer {
 		margin-top: 2rem;
@@ -69,16 +82,24 @@
 </style>
 </head>
 <body>
-	<div class="wrap">
-		<h1>404 - File Not Found</h1>
-
-		<p>
-			<?php if (! empty($message) && $message !== '(null)') : ?>
-				<?= esc($message) ?>
-			<?php else : ?>
-				Sorry! Cannot seem to find the page you were looking for.
-			<?php endif ?>
-		</p>
+	<div id="particles-js">
+		<div class="wrap">
+			<h1>404 - File Not Found</h1>
+			<p>
+				<?php if (! empty($message) && $message !== '(null)') : ?>
+					<?= esc($message) ?>
+				<?php else : ?>
+					Sorry! Cannot seem to find the page you were looking for.
+				<?php endif ?>
+			</p>
+		</div>
 	</div>
+
+	<script src="/assets/public/plugins/particlejs/particles.js"></script>
+    <script>
+        particlesJS.load('particles-js', '/assets/public/plugins/particlejs/particlesjs-config.json', function() {
+            console.log('callback - particles.js config loaded');
+        });
+    </script>
 </body>
 </html>

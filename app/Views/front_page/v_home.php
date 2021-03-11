@@ -1,9 +1,7 @@
-            <?php 
-            if ($lokasi == "Home") {
+            <?php if ($lokasi == "Home") {
                 echo view('front_page/components/home_carousel.php');
-            } 
-            ?>
-            <div class="content-list mb-5">
+            } ?>
+            <div class="content-list mb-5" id="content">
 
                 <div style="background-color: white;">
                     <div class="container pt-3 pb-4">
@@ -88,8 +86,8 @@
                                             </div>
                                         </form>
                                     </div>
-                                    <div class="card-footer borderRadiusBottom1" style="background-color:#a7d7c5;border:0px;">
-                                        <button id="buttonLocation" class="btn btn-secondary BorderRadius3">Submit</button>
+                                    <div class="card-footer d-flex justify-content-between borderRadiusBottom1" style="background-color:#a7d7c5;border:0px;">
+                                        <button id="buttonLocation" class="btn btn-secondary ms-2 BorderRadius3">Submit</button>
                                     </div>
                                 </div>
                             </div>
@@ -149,6 +147,14 @@
                                             </tbody>
                                         </table>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    Atau anda bisa mengakses jadwal shalat & imsakiyah melalui <a href="#" class="alert-link" data-bs-toggle="modal" data-bs-target="#modalTelegram">Telegram</a>
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                                 </div>
                             </div>
                         </div>

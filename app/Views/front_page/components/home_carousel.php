@@ -9,9 +9,9 @@
                         <img src="<?= base_url(); ?>/assets/public/image/3.2.jpg" alt="Carousel Image" class="d-block" loading="lazy">
                         <div class="container">
                             <div class="carousel-caption text-start">
-                                <h1>Example headline.</h1>
+                                <h1>Spesial Bulan Ramadhan</h1>
                                 <p id="quoteRandom1">Fungsi filter() membuat array baru berisi elemen yang lolos pengecekan di dalam fungsi anonim yang dikirim sebagai parameter.</p>
-                                <p><a class="btn btn-lg btn-primary BorderRadius3" href="#" role="button">Sign up today</a></p>
+                                <p><a class="btn btn-lg btn-primary BorderRadius3" href="#" onclick="window.scrollBy(0, 600);" role="button">Scroll Down</a></p>
                             </div>
                         </div>
                     </div>
@@ -19,7 +19,7 @@
                         <img src="<?= base_url(); ?>/assets/public/image/6.1.jpg" alt="Carousel Image" class="d-block" loading="lazy">
                         <div class="container">
                             <div class="carousel-caption text-dark">
-                                <h1>Another example headline.</h1>
+                                <h1>Terdapat Banyak Fitur</h1>
                                 <p id="quoteRandom1">Fungsi filter() membuat array baru berisi elemen yang lolos pengecekan di dalam fungsi anonim yang dikirim sebagai parameter.</p>
                                 <p><a class="btn btn-lg btn-primary BorderRadius3" href="#" role="button">Learn more</a></p>
                             </div>
