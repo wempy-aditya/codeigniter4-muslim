@@ -77,7 +77,7 @@
 	a:active,
 	a:link,
 	a:visited {
-		color: #dd4814;
+		color: #74b49b;
 	}
 </style>
 </head>
@@ -91,11 +91,12 @@
 				<?php else : ?>
 					Sorry! Cannot seem to find the page you were looking for.
 				<?php endif ?>
+				Back to <a href="<?php echo(base_url()); ?>/">Home page</a>
 			</p>
 		</div>
 	</div>
 
-	<script src="/assets/public/plugins/particlejs/particles.js"></script>
+	<script src="/assets/public/plugins/particlejs/particles.min.js"></script>
     <script>
         particlesJS.load('particles-js', '/assets/public/plugins/particlejs/particlesjs-config.json', function() {
             console.log('callback - particles.js config loaded');

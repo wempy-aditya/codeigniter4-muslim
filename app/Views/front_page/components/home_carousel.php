@@ -6,32 +6,32 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="<?= base_url(); ?>/assets/public/image/3.2.jpg" alt="Carousel Image" class="d-block" loading="lazy">
+                        <img src="<?= base_url(); ?>/assets/public/image/carouselImage1.jpg" alt="Carousel Image" class="d-block">
                         <div class="container">
                             <div class="carousel-caption text-start">
                                 <h1>Spesial Bulan Ramadhan</h1>
-                                <p id="quoteRandom1">Fungsi filter() membuat array baru berisi elemen yang lolos pengecekan di dalam fungsi anonim yang dikirim sebagai parameter.</p>
-                                <p><a class="btn btn-lg btn-primary BorderRadius3" href="#" onclick="window.scrollBy(0, 600);" role="button">Scroll Down</a></p>
+                                <p class="carouselText">Website yang dibuat oleh Wempy.Tech untuk menyambut Bulan Ramadhan yang penuh berkah ini. Memuat banyak fitur yang tentunya dapat berguna dan bermanfaat.</p>
+                                <p><a class="btn btn-primary BorderRadius3" href="#" onclick="window.scrollBy(0, 600);" role="button">Scroll Down</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="<?= base_url(); ?>/assets/public/image/6.1.jpg" alt="Carousel Image" class="d-block" loading="lazy">
+                        <img src="<?= base_url(); ?>/assets/public/image/carouselImage2.jpg" alt="Carousel Image" class="d-block">
                         <div class="container">
                             <div class="carousel-caption text-dark">
                                 <h1>Terdapat Banyak Fitur</h1>
-                                <p id="quoteRandom1">Fungsi filter() membuat array baru berisi elemen yang lolos pengecekan di dalam fungsi anonim yang dikirim sebagai parameter.</p>
-                                <p><a class="btn btn-lg btn-primary BorderRadius3" href="#" role="button">Learn more</a></p>
+                                <p class="carouselText">Fitur Al-Quran online sehingga anda bisa membacanya dimana saja dan kapan saja, disertai juga dengan audio Murottal.</p>
+                                <p><a class="btn btn-primary BorderRadius3" href="<?php echo(base_url()); ?>/Quran" role="button">Baca Al-Quran</a></p>
                             </div>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+                        <img src="<?= base_url(); ?>/assets/public/image/carouselImage3.jpg" alt="Carousel Image" class="d-block">
                         <div class="container">
                             <div class="carousel-caption text-end">
-                                <h1>One more for good measure.</h1>
-                                <p id="quoteRandom2">Fungsi filter() membuat array baru berisi elemen yang lolos pengecekan di dalam fungsi anonim yang dikirim sebagai parameter.</p>
-                                <p><a class="btn btn-lg btn-primary BorderRadius3" href="#" role="button">Browse gallery</a></p>
+                                <h1>Tampilan Website Yang Menarik</h1>
+                                <p class="carouselText">Website ini dibuat dengan menggunakan banyak teknologi, sehingga membuat performanya cepat dan tampilan yang bagus.</p>
+                                <p><a class="btn btn-primary BorderRadius3" href="<?php echo(base_url()); ?>/About" role="button">Tentang Website</a></p>
                             </div>
                         </div>
                     </div>    

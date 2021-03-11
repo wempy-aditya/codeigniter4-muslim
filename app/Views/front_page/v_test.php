@@ -19,7 +19,7 @@
 <body>
     <div id="particles-js"></div>
 
-    <script src="/assets/public/plugins/particlejs/particles.js"></script>
+    <script src="/assets/public/plugins/particlejs/particles.min.js"></script>
     <script>
         particlesJS.load('particles-js', '/assets/public/plugins/particlejs/particlesjs-config.json', function() {
             console.log('callback - particles.js config loaded');

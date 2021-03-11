@@ -32,6 +32,9 @@
     height: 38rem;
     /* height: 32rem; */
     }
+    .carouselText {
+        font-size: 19px;
+    }
 
     .marketing .col-lg-4 {
     margin-bottom: 1.5rem;
@@ -226,6 +229,9 @@
     -------------------------------------------------- */
 
     @media only screen and (max-width: 500px) {
+        .carouselText {
+            font-size: 15px;
+        }
         .countdownCard {
             margin: 8px;
         }
